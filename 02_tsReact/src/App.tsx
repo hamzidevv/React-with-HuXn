@@ -12,6 +12,7 @@ import MyComponent from "./components/MyComponent";
 import TodoList from "./components/TodoList";
 import User from "./components/User";
 import UserInfo from "./components/UserInfo";
+import UserList from "./components/UserList";
 import UserProfile from "./components/UserProfile";
 import { type Info, type AdminInfoList } from "./types";
 
@@ -49,7 +50,8 @@ const App = () => {
       {/* <CounterContext /> */}
       {/* <CounterReducer /> */}
       {/* <CounterReducer2 /> */}
-      <MyComponent />
+      {/* <MyComponent /> */}
+      <UserList />
     </div>
   );
 };
